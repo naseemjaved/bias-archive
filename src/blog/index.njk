@@ -1,0 +1,49 @@
+---
+layout: base.njk
+title: Blog
+description: "Every entry from Bia's Archive, in order."
+permalink: /blog/
+eleventyComputed:
+  eleventyExcludeFromCollections: true
+---
+<section class="archive">
+  <div class="wrap wrap--narrow">
+    <p class="eyebrow">The archive</p>
+    <h1 class="page-title">Blog</h1>
+    <p class="page-intro">Every entry, published roughly once a week through the semester.</p>
+  </div>
+
+  <div class="wrap wrap--narrow">
+    {% if collections.posts.length == 0 %}
+    <p class="empty-state">The first entry hasn't been published yet — check back soon.</p>
+    {% else %}
+    <ol class="post-list" reversed>
+      {% for post in collections.posts %}
+      <li class="post-list__item">
+        <a href="{{ post.url }}" class="post-list__link">
+          {% if post.data.image %}
+          <div class="post-list__image">
+            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt or "" }}" loading="lazy">
+          </div>
+          {% endif %}
+          <div class="post-list__body">
+            <p class="post-list__meta">
+              <span class="volume">Vol. {{ post.data.date | volumeNumber(collections.posts) }}</span>
+              <span class="post__meta-sep" aria-hidden="true">·</span>
+              <time datetime="{{ post.data.date | readableDate }}">{{ post.data.date | readableDate }}</time>
+            </p>
+            <h2 class="post-list__title">{{ post.data.title }}</h2>
+            <p class="post-list__excerpt">{{ post.data.excerpt or (post.templateContent | excerpt(180)) }}</p>
+            {% if post.data.tags %}
+            <p class="post-list__tags">
+              {% for tag in post.data.tags %}{% if tag != "posts" %}<span class="tag">{{ tag }}</span>{% endif %}{% endfor %}
+            </p>
+            {% endif %}
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+  </div>
+</section>

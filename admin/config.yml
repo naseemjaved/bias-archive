@@ -1,0 +1,45 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Netlify Identity handles login — Rabia signs in with her own email/password,
+# no GitHub account needed on her end.
+site_url: https://REPLACE-WITH-YOUR-SITE.netlify.app
+display_url: https://REPLACE-WITH-YOUR-SITE.netlify.app
+logo_url: ""
+
+media_folder: "src/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "src/blog/posts"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post.njk" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "yyyy-MM-DD", date_format: "yyyy-MM-DD", time_format: false }
+      - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Shown at the top of the post and on the homepage/archive cards." }
+      - { label: "Featured Image Alt Text", name: "imageAlt", widget: "string", required: false }
+      - { label: "Short Excerpt", name: "excerpt", widget: "text", required: false, hint: "1–2 sentences shown on the homepage and archive list. If left blank, the first part of the post is used instead." }
+      - label: "Tags / Categories"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        default: ["posts"]
+        options: ["posts", "strategy", "social media", "branding", "advertising", "content marketing", "analytics", "case study"]
+        hint: "Keep 'posts' selected — it's what makes the entry show up in the blog feed."
+      - { label: "Body", name: "body", widget: "markdown", body: true }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "src/about.njk"
+        fields:
+          - { label: "Front matter (do not edit)", name: "frontmatterNote", widget: "hidden" }

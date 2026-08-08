@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Bia's Archive" }}{% if title %} — Bia's Archive{% endif %}</title>
+  <meta name="description" content="{{ description or 'A weekly look at digital marketing theory and real-world examples, written by an RMIT Bachelor of Business (Marketing) student.' }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content='{{ title or "Bia's Archive" }}'>
+  <meta property="og:description" content='{{ description or "A weekly look at digital marketing theory and real-world examples." }}'>
+  <meta property="og:type" content="website">
+  {% if image %}<meta property="og:image" content="{{ image }}">{% endif %}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%2312161C%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%237C9473%22 font-family=%22serif%22>B</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a href="/" class="wordmark">Bia's Archive</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
+        <a href="/blog/"{% if page.url == "/blog/" %} aria-current="page"{% endif %}>Blog</a>
+        <a href="/about/"{% if page.url == "/about/" %} aria-current="page"{% endif %}>About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <p class="site-footer__brand">Bia's Archive</p>
+      <p class="site-footer__note">Digital marketing theory &amp; real-world examples, published weekly.</p>
+    </div>
+  </footer>
+</body>
+</html>

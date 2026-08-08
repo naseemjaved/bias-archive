@@ -1,0 +1,50 @@
+---
+layout: base.njk
+title: ""
+description: "A weekly look at digital marketing theory, current industry examples and marketing strategy — from an RMIT Bachelor of Business (Marketing) student."
+---
+<section class="hero">
+  <div class="wrap wrap--narrow">
+    <p class="eyebrow">A digital marketing publication</p>
+    <h1 class="hero__title">Bia's Archive</h1>
+    <p class="hero__intro">
+      A weekly look at digital marketing concepts, current industry examples and marketing
+      strategy — examined one campaign, one framework, one week at a time.
+    </p>
+    <a class="button" href="/blog/">Read the blog</a>
+  </div>
+</section>
+
+<section class="latest">
+  <div class="wrap">
+    <div class="section-heading">
+      <h2>Latest entries</h2>
+      <a class="section-heading__link" href="/blog/">View archive &rarr;</a>
+    </div>
+
+    {% if collections.posts.length == 0 %}
+    <p class="empty-state">The first entry hasn't been published yet — check back soon.</p>
+    {% else %}
+    <div class="post-grid">
+      {% for post in collections.posts %}
+        {% if loop.index <= 3 %}
+        <a class="post-card" href="{{ post.url }}">
+          {% if post.data.image %}
+          <div class="post-card__image">
+            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt or "" }}" loading="lazy">
+          </div>
+          {% endif %}
+          <div class="post-card__body">
+            <p class="post-card__meta">
+              <time datetime="{{ post.data.date | readableDate }}">{{ post.data.date | readableDate }}</time>
+            </p>
+            <h3 class="post-card__title">{{ post.data.title }}</h3>
+            <p class="post-card__excerpt">{{ post.data.excerpt or (post.templateContent | excerpt) }}</p>
+          </div>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>

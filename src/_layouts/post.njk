@@ -1,0 +1,38 @@
+---
+layout: base.njk
+---
+<article class="post">
+  <div class="wrap wrap--narrow">
+    <div class="post__meta">
+      <span class="volume">Vol. {{ date | volumeNumber(collections.posts) }}</span>
+      <span class="post__meta-sep" aria-hidden="true">·</span>
+      <time datetime="{{ date | readableDate }}">{{ date | readableDate }}</time>
+      {% if tags %}
+        <span class="post__meta-sep" aria-hidden="true">·</span>
+        <span class="post__tags">
+          {% for tag in tags %}{% if tag != "posts" %}<a href="/blog/tag/{{ tag | slugify }}/" class="tag">{{ tag }}</a>{% endif %}{% endfor %}
+        </span>
+      {% endif %}
+    </div>
+
+    <h1 class="post__title">{{ title }}</h1>
+
+    {% if excerpt %}<p class="post__standfirst">{{ excerpt }}</p>{% endif %}
+  </div>
+
+  {% if image %}
+  <figure class="post__hero">
+    <img src="{{ image }}" alt="{{ imageAlt or "" }}" loading="eager">
+  </figure>
+  {% endif %}
+
+  <div class="wrap wrap--narrow">
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+
+    <div class="post__back">
+      <a href="/blog/">&larr; Back to all posts</a>
+    </div>
+  </div>
+</article>
