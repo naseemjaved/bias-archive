@@ -4,8 +4,8 @@ backend:
 
 # Netlify Identity handles login — Rabia signs in with her own email/password,
 # no GitHub account needed on her end.
-site_url: https://REPLACE-WITH-YOUR-SITE.netlify.app
-display_url: https://REPLACE-WITH-YOUR-SITE.netlify.app
+site_url: https://bias-archive.netlify.app
+display_url: https://bias-archive.netlify.app
 logo_url: ""
 
 media_folder: "src/images/uploads"
