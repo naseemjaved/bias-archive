@@ -5,6 +5,7 @@ date: yyyy-08-07
 image: ""
 tags:
   - posts
+  - branding
 ---
 Every December, I become part of Spotify's marketing without really thinking about it. When Wrapped drops each year, I find myself pulling up my top artists, quietly reflecting on what my listening says about me, and comparing notes with friends. I'll only post the results if they're interesting, or at least not embarrassing. At its core, I'm disclosing something about who I am. But Spotify comes along for the ride.
 
