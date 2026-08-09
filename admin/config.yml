@@ -22,7 +22,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post.njk" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime", format: "yyyy-MM-DD", date_format: "yyyy-MM-DD", time_format: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "yyyy-MM-DD", time_format: false }
       - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Shown at the top of the post and on the homepage/archive cards." }
       - { label: "Featured Image Alt Text", name: "imageAlt", widget: "string", required: false }
       - { label: "Short Excerpt", name: "excerpt", widget: "text", required: false, hint: "1–2 sentences shown on the homepage and archive list. If left blank, the first part of the post is used instead." }
