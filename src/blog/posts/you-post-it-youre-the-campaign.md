@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: You Post It, You're the Campaign
-date: yyyy-08-09
+date: yyyy-08-08
 image: ""
 tags:
   - posts
