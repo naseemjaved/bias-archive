@@ -1,12 +1,16 @@
 ---
+
 layout: post.njk
 title: You Post It, You're the Campaign
-date: yyyy-08-07
+date: 2026-08-07
 image: ""
 tags:
-  - posts
-  - branding
+
+- posts
+- branding
+
 ---
+
 Every December, I become part of Spotify's marketing without really thinking about it. When Wrapped drops each year, I find myself pulling up my top artists, quietly reflecting on what my listening says about me, and comparing notes with friends. I'll only post the results if they're interesting, or at least not embarrassing. At its core, I'm disclosing something about who I am. But Spotify comes along for the ride.
 
 What I find amusing about Wrapped is how effortlessly it spreads beyond Spotify itself. [Kitchen and Burgmann (2015)](https://www.emerald.com/jbs/article/36/4/34/188983/Integrated-marketing-communication-making-it-work), writing in the *Journal of Business Strategy*, look at how marketing communications can be strategically integrated instead of working in isolation. Wrapped is what made that idea click for me. **Integration** isn't just about slapping the same campaign across different platforms. The pieces actually have to work together. That's how you get **synergy**, where the combined effect ends up bigger than each part alone.
@@ -15,9 +19,7 @@ Wrapped makes that ridiculously easy to see. In December 2025, [Spotify's offici
 
 That's the part that gets me. I think I'm telling my friends something about me, while Spotify quietly tags along in the conversation.
 
-
 Wrapped also made me pay attention to who's actually doing the talking. Online, marketing doesn't have to be a brand speaking directly at its customers. It can turn **customer-driven** and **customer-to-customer** instead. The second I post my Wrapped, Spotify isn't carrying the message alone anymore. My friends and I are the ones comparing, joking, and picking apart the content ourselves.
-
 
 Of course, Spotify can't fully control what happens after that. I might proudly show off one result, roast another, or complain that Wrapped completely misjudged my year. Yet even criticism keeps the conversation going. That's the part I find so compelling about this form of communication: when you hand customers a stake in spreading your message, you're also handing them a stake in defining it.
 
