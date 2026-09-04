@@ -21,4 +21,6 @@ As a consumer, I think that makes a difference in how the promotion is received.
 That is how it is different from a regular influencer collaboration. Earle does not simply gain credibility for the brand, as her experiences help create the product, and her voice guides **how people discover it**.
 
 **Takeaway**
-The Influencer Roles Typology helped me understand that the phrase “influencer marketing” could be applied to dramatically different contexts and situations. The case of Reale Actives is an excellent example of how **an influencer can move** from the media space and become part of the product, narrative, and overall business process.
+The Influencer Roles Typology helped me understand that the phrase “influencer marketing” could be applied to dramatically different contexts and situations. The case of Reale Actives is an excellent example of how **an influencer can move** from the media space and become part of the product, narrative, and overall business process.\
+\
+***AI DISCLOSURE: On 4 September 2026, I used OpenAI’s ChatGPT (GPT-5.6) to assist with research and refine the structure and wording of my original ideas and writing.***
