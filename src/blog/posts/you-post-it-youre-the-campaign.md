@@ -21,4 +21,6 @@ Of course, Spotify can't fully control what happens after that. I might proudly 
 And people absolutely showed up. According to [Spotify's own figures](https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/),, Wrapped 2025 , reported in February 2026 , reached over 300 million engaged fans and generated more than 630 million social shares. Self-reported figures aside, that's a staggering level of participation.
 
 Takeaway
-Once you notice it, you can't stop noticing it every feed, every December. But that's the genius of it. I'm not thinking about the campaign. I'm thinking about my music, my year, what my friends will say. Spotify just gives me something worth sharing. The marketing comes free.
+Once you notice it, you can't stop noticing it every feed, every December. But that's the genius of it. I'm not thinking about the campaign. I'm thinking about my music, my year, what my friends will say. Spotify just gives me something worth sharing. The marketing comes free.\
+\
+***AI DISCLOSURE: On 9 August 2026, I used OpenAI’s ChatGPT (GPT-5.6) to assist with research and refine the structure and wording of my original ideas and writing.***
