@@ -2,7 +2,7 @@
 layout: post.njk
 title: You Post It, You're the Campaign
 date: 2026-08-09
-image: /images/uploads/images.jpeg
+image: /images/uploads/images-1-.jpeg
 tags:
   - posts
 ---
