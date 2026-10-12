@@ -18,7 +18,7 @@ Wrapped also made me pay attention to who's actually doing the talking. Online, 
 
 Of course, Spotify can't fully control what happens after that. I might proudly show off one result, roast another, or complain that Wrapped completely misjudged my year. Yet even criticism keeps the conversation going. That's the part I find so compelling about this form of communication: when you hand customers a stake in spreading your message, you're also handing them a stake in defining it.
 
-And people absolutely showed up. According to [Spotify's own figures](https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/),, Wrapped 2025 , reported in February 2026 , reached over 300 million engaged fans and generated more than 630 million social shares. Self-reported figures aside, that's a staggering level of participation.
+And people absolutely showed up. According to [Spotify's own figures](<a href="URL" target="_blank" rel="noopener noreferrer">Spotify's own figures</a>),, Wrapped 2025 , reported in February 2026 , reached over 300 million engaged fans and generated more than 630 million social shares. Self-reported figures aside, that's a staggering level of participation.
 
 Takeaway
 Once you notice it, you can't stop noticing it every feed, every December. But that's the genius of it. I'm not thinking about the campaign. I'm thinking about my music, my year, what my friends will say. Spotify just gives me something worth sharing. The marketing comes free.\
